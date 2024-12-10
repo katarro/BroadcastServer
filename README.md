@@ -28,7 +28,7 @@ Este es un proyecto de servidor y cliente WebSocket, que permite transmitir mens
    ```
 3. Vincula el comando globalmente para poder usar el CLI:
    ```bash
-   npm link
+   sudo npm link
    ```
 
 ## Uso
