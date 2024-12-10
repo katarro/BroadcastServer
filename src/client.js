@@ -20,10 +20,10 @@ socket.on("open", () => {
     });
 });
 
-socket.on("message", (message) => {
+socket.on('message', message => {
     const parsedMessage = JSON.parse(message);
 
-    if (parsedMessage.type === "public") {
+    if (parsedMessage.type === 'public') {
         console.log(`\x1b[33m\nMensaje público del servidor: ${parsedMessage.message}\x1b[0m`);
     } else if (parsedMessage.type === "private") {
         console.log(`\x1b[36m\nMensaje privado del servidor: ${parsedMessage.message}\x1b[0m`);

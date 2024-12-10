@@ -8,7 +8,7 @@ program
   .description('Inicia el servidor WebSocket')
   .action(() => {
     console.log('Iniciando servidor WebSocket...');
-    const serverProcess = spawn('node', ['server.js'], { stdio: 'inherit' });
+    const serverProcess = spawn('node', ['src/server.js'], { stdio: 'inherit' });
 
     serverProcess.on('close', (code) => {
       console.log(`Servidor cerrado con código ${code}`);
@@ -20,7 +20,7 @@ program
   .description('Conecta el cliente al servidor WebSocket')
   .action(() => {
     console.log('Conectando el cliente al servidor WebSocket...');
-    const serverProcess = spawn('node', ['client.js'], { stdio: 'inherit' });
+    const serverProcess = spawn('node', ['src/client.js'], { stdio: 'inherit' });
 
     serverProcess.on('close', (code) => {
       console.log(`Cliente cerrado con código ${code}`);
