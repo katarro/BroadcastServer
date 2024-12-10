@@ -1,6 +1,5 @@
 # Broadcast WebSocket Server
-https://roadmap.sh/projects/broadcast-server  
-Este es un proyecto básico de servidor y cliente WebSocket, que permite transmitir mensajes públicos y privados entre clientes conectados. Además, incluye un CLI personalizado para iniciar tanto el servidor como el cliente usando comandos simples.
+Este es un proyecto de servidor y cliente WebSocket, que permite transmitir mensajes públicos y privados entre clientes conectados. Además, incluye un CLI personalizado para iniciar tanto el servidor como el cliente usando comandos simples.
 
 ## Características
 
